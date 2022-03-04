@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Nunito:ital,wght@0,800;1,400&display=swap" rel="stylesheet">
+  <meta name="google" content="notranslate">
+  <link rel="stylesheet" href="./styles.css">
+  <link rel="icon" type="image/vnd.microsoft.icon" href="./favicon.ico">
+  <title>Sea fight</title>
+</head>
+<body>
+
+  <header>
+    <div class="header-div">
+      <button class="how-to-play-button top-panel-button" type="button">How to play</button>
+      <h1>S<span class="highlite-text"><span>e</span></span>a f<span class="highlite-text"><span>i</span></span>ght</h1>
+      <button class="open-leaderboard-button top-panel-button" type="button">Leaderboard</button>
+    </div>
+  </header>
+
+  <main>
+    <div class="main-div">
+      <div class="score-board">
+        <button class="start-game-button" type="button">Start new game</button>
+        <p class="score-display score-display-positive">+000000</p>
+        <p class="unescape-ship-display score-display-positive">20</p>
+      </div>
+      <div class="play-field">
+      </div>
+      <div class="control-room">
+        <div class="launch-panel">
+          <button class="fire-1-button fire-button" type="button">Fire 1</button>
+          <button class="fire-2-button fire-button" type="button">Fire 2</button>
+          <button class="fire-3-button fire-button" type="button">Fire 3</button>
+          <div class="under-button-left under-button"></div>
+          <div class="under-button-center under-button"></div>
+          <div class="under-button-right under-button"></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="leaderboard dark-bg">
+      <div class="leaderboard-div">
+        <h3>Leaderboard</h3>
+        <ol class="leaderboard-list">
+          <li><div><span></span><span></span></div></li>
+          <li><div><span></span><span></span></div></li>
+          <li><div><span></span><span></span></div></li>
+          <li><div><span></span><span></span></div></li>
+          <li><div><span></span><span></span></div></li>
+          <li><div><span></span><span></span></div></li>
+          <li><div><span></span><span></span></div></li>
+          <li><div><span></span><span></span></div></li>
+          <li><div><span></span><span></span></div></li>
+          <li><div><span></span><span></span></div></li>
+        </ol>
+      </div>
+      <button class="close-leaderboard-button close-button" type="button">X</button>
+    </div>
+
+    <div class="how-to-play dark-bg">
+      <div class="how-to-play-div">
+        <p>Ай-ай, капитан!</p>
+        <p>Добро пожаловать на наш учебный полигон, где тебе предстоит пристреливать торпедные аппараты своей новой субмарины.
+          Все будет как в реальных боевых условиях, только палить будешь по тренировочным макетам кораблей (далее корабли), которые не могут дать сдачи.
+          Твоя задача - набить побольше очков и утереть нос бывалым морским волкам. Для этого <strong>подрывай корабли</strong>. Но делай это не бездумно.
+          Чем сложнее мишень, тем больше очков ты получишь за ее подрыв. Вознаграждение зависит от трех параметров: <strong>размера</strong>, <strong>скорости</strong> и <strong>дальности</strong> корабля.
+          Самый дорогой корабль - мелкий, быстрый и идущий во-о-о-н там - у другого берега залива.
+          Причем ты будешь палить самыми настоящими торпедами. Они двигаются <strong>с ускорением</strong>, пока не достигнут максимальной скорости где-то в середине залива. Так что пускай на опережение.
+          Линии, которые ты видишь в перископе - это <strong>линии движения торпед</strong>, подсвеченные лазером. Всего у тебя <strong>три торпедных аппарата</strong>.
+          А еще торпеды стоят денег, то есть очков. Стрелять настоящими торпедами - удовольствие не из дешевых. Так что трижды подумай прежде чем нажмешь кпопку пуска - попадешь ли? Окупится ли этот пуск?
+          Каждая стоит <strong>50 очков</strong>. Корабли приносят <strong>от 105 до 312 очков</strong> (Там сложная формула рассчета. Пусть этим аналитики в штабе занимаются).
+          Твой экипаж - отличные парни. Но они еще неопытны и двигаются со скоростью морских черепах. Так что после каждого пуска придется подождать, пока они зарядят аппарат. Всего три секунды, но в боевых условиях - это целая вечность.
+          И последнее. Игра... то есть учения заканчиваются, когда от тебя сбегут <strong>20 кораблей</strong>.
+          Еще раз повторю - <strong>думай</strong> перед каждым пуском, <strong>расчитывай</strong> траекторию и ускорение торпеды. Оценивай шансы потопления и стоимость корабля. Или <strong>забудь</strong> все, что я только что сказал и пали по КД на удачу. Выбор тактики за тобой!
+          </p>
+        <p>Вольно, капитан! К боевым учениям приступить!</p>
+      </div>
+      <button class="close-how-to-play-button close-button" type="button">X</button>
+    </div>
+
+
+    <div class="game-over dark-bg">
+      <div class="game-over-div">
+        <h2>Game Over</h2>
+        <div class="show-final-score">
+          <p class="final-score-title">Your score is:</p>
+          <p class="final-score">+000000</p>
+        </div>
+        <p class="message">You didn't reach the leaderboard</p>
+        <button class="game-over-leaderboard-button top-panel-button" type="button">Leaderboard</button>
+      </div>
+      <button class="close-game-over-button close-button" type="button">X</button>
+    </div>
+  </main>
+
+  <footer>
+    <div class="footer-div">
+      <p><span>Developer: </span><a class="github" href="https://github.com/Legat14" target="_blank">Legat14</a></p>
+      <p>02/2022</p>
+      <a class="rs-school" href="https://rs.school/js-stage0/" target="_blank"><img src="./assets/svg/rs_school_js.svg" alt="rs_school" width="160" height="59"></a>
+    </div>
+  </footer>
+
+<script src="./script.js"></script>
+
+</body>
+</html>
